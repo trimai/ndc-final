@@ -1,0 +1,94 @@
+@charset "utf-8";
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+.poppins-regular {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+body{
+	font-family: "Poppins", sans-serif;font-size: 16px; color: #666666;margin: 0
+}
+
+header{
+	width: 100%;height: 60px;background-color: #B7B7B7;border-bottom: 1px solid darkred
+}
+.menu{
+	padding-top: 15px
+}
+.menu ul{
+	margin: 0;padding: 0;list-style: none;display: flex
+}
+.menu ul li a{
+	padding: 10px 20px;text-decoration: none;font-size: 17px;text-transform: uppercase;color: #494949;border-radius: 30px
+}
+.menu ul li a:hover{
+	background-color: darkred;color: white
+}
+/*phan carousel*/
+#slide .owl-dots{ position:absolute; bottom: 10px; left:45%;}
+#slide .owl-dots .owl-dot span {
+      width: 12px;
+      height: 12px; 	
+}
+
+#slide .owl-nav { position:absolute; left:0px; top:40%; width:100%; }
+#slide .owl-nav [class*='owl-'] {
+	font-size:80px; /*background:rgba(255,255,255,.5);border:1px solid #fff; */ color:#FF0004
+}
+
+#slide .owl-nav .owl-next{ position:absolute; right:5%;}
+#slide .owl-nav .owl-prev{ position:absolute; left:5%;}
+#slide .owl-nav [class*='owl-']:hover {
+      background:none;border: none;
+      color:#0C17F0;
+      text-decoration: none; }
+/*phần main*/
+main{
+	width: 100%;min-height: 500px
+}
+.text-do{
+	color: darkred
+}
+aside ul{
+	margin: 0;padding: 0;list-style: none;display: flex;flex-direction: column
+}
+aside ul li a{
+	padding: 10px; display: block;text-decoration: none;color: #666666;font-size: 17px
+}
+aside ul li{
+	border-bottom: 1px solid gray
+}
+aside ul li a:hover{
+	background-color: darkred;color: white
+}
+.text-den{
+	color: black
+}
+.text-center{
+	text-align: center
+}
+footer{
+	width: 100%;min-height: 200px;background-color: #B8B8B8
+}
+.bg-xanh{
+	background-color: #78BEF8;min-height: 200px;text-align: center
+}
+footer .lg{
+	text-decoration: none;font-size: 18px;font-weight: bold;color: #3E3E3E
+}
+footer .lg:hover{
+	color: darkred
+}
+footer a{
+	color: #3D3D3D;margin-right: 5px
+}
+footer a:hover{
+	color: darkred
+}
+footer ul{
+	margin: 0;padding: 0;list-style: none;display: flex;flex-direction: column
+}
+footer ul li a{
+	padding: 10px;display: block;text-decoration: none
+}
